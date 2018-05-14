@@ -1,4 +1,7 @@
 /TestsCalabash/*.png
 /apks/*
 /*.apk
-/script/*.*
+/script/*.pyc
+/TestsCalabash/test_servers/*
+/OriginalAPK/*
+/apkstest/*
