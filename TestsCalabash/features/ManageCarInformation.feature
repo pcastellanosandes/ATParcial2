@@ -5,6 +5,7 @@ Feature: Manage a car
     Then I enter text "Kia Rio Spice" into field with id "edt_name"
     Then I clear input field with id "edt_initial_mileage"
     Then I enter text "3500" into field with id "edt_initial_mileage"
+	Then I take a screenshot
     Then I press view with id "menu_save"
     Then I wait for 1 seconds
     Then I swipe left
@@ -43,7 +44,8 @@ Feature: Manage a car
     Then I press view with id "menu_add_fuel_type"
     Then I enter text "Gasoline" into field with id "edt_name"
     Then I enter text "Petrol" into field with id "edt_category"
-    Then I press the "OK" button
+    Then I take a screenshot
+	Then I press the "OK" button
     Then I see the text "Gasoline"
     Then I see the text "Petrol"
     Then I take a screenshot
@@ -83,7 +85,6 @@ Feature: Manage a car
     Examples:
     | mileage | volume | price |      date    |  dateView   |  hour    | mileageResult | volumeResult | priceResult |
     |  "40"   |  "10"  |  "30" | "05-06-2017" | "6/5/17"    | "12:30"  |    "40 km"    |  "10.00 l"   | "30.00 EUR" |
-    |  "50"   |  "14"  |  "38" | "05-01-2018" | "1/5/18"    | "10:28"  |    "50 km"    |  "14.00 l"   | "38.00 EUR" |
 
 
   Scenario Outline: Add other expenditure

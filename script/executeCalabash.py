@@ -33,14 +33,15 @@ def validate_was_successful(result, folderName, result_file):
     all_scenarios = False
     all_steps = False
     for line in result.output:
-        if "7 scenarios (7 passed)" in line:
-            all_scenarios = true
-        if "163 steps (163 passed)" in line:
-            all_steps = true
+        print line
+        if "6 scenarios (6 passed)" in line:
+            all_scenarios = True
+        if "136 steps (136 passed)" in line:
+            all_steps = True
 
     if not all_scenarios or not all_steps:
         print "bad apk: "+folderName
-        result_file.write(folderName)
+        result_file.write(folderName + "\n")
         result_file.writelines(result.output)
         result_file.write("------------------------------------------------------------------------------------------------------------------------------------------------------\n\n\n\n")
 

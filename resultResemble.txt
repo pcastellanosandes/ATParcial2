@@ -1,0 +1,8 @@
+apk118
+Image: C:/Users/paula/Documents/PruebasAutomaticas/ATParcial2/apkstest/lastExe/apk118/screenshot_9.png
+{"isSameDimensions":true,"dimensionDifference":{"width":0,"height":0},"rawMisMatchPercentage":0.13387345679012347,"misMatchPercentage":"0.13","diffBounds":{"top":21,"left":83,"bottom":1597,"right":1054},"analysisTime":215}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
