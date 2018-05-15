@@ -27,7 +27,7 @@ async function getDiff(original, mutant, result){
           options
       );
       console.log(JSON.stringify(data))
-      if (data.rawMisMatchPercentage >= 0.1)
+      if (data.rawMisMatchPercentage > 0.5)
         await fs.writeFile(result, data.getBuffer());
 
 

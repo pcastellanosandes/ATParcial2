@@ -4,6 +4,9 @@
 /*.apk
 /script/*.pyc
 /TestsCalabash/test_servers/*
-/OriginalAPK/*
-/apkstest/*
+/OriginalAPK/*.apk
+/apkstested/*/sc*.png
+/apkstested/*/*.apk
 /Resemble/node_modules/*
+/Retest
+/apksTested
