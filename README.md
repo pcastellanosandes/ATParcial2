@@ -5,4 +5,3 @@ El repositorio se encuentra estructurado de la siguiente manera:
 * **TestsCalabash**: Implementación de escenarios con Calabash
 * **script**: Scripts en python que permite la ejecución automatizada de la apliación NodeJS para comparar imagenes y de los test realizados en Calabash
 * _result.txt_: Archivo con el log de errores encontrados en la ejecución de las pruebas automatizadas con Calabash
-* _resultResemble.txt_: Archivo con el log de ejecución de ResembleJS, en este archivo solo encontrará referencia a las imágenes que generaron diferencia mayor al 10%

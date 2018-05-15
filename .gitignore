@@ -9,4 +9,4 @@
 /apkstested/*/*.apk
 /Resemble/node_modules/*
 /Retest
-/apksTested
+!C:\Users\paula\Documents\PruebasAutomaticas\ATParcial2\apksTested\apk202\screenshot_3.png
